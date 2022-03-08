@@ -61,10 +61,7 @@ void integer::incCount(){
 }
 		
 bool operator< (const integer& lhs, const integer& rhs){
-    if(lhs.intValue < rhs.intValue){
-        return true;
-    }
-    return false;
+    return lhs.intValue < rhs.intValue;
 }
 
 bool operator== (const integer& lhs, const integer& rhs){
